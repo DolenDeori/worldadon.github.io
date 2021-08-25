@@ -261,49 +261,19 @@
         .scrolle--text--area{
             margin-top: 5rem;
             height: 100vh;
-            position: relative;
-            border-top: 2px solid rgb(219, 219, 219);
-            @include __600__{
-                height: 50vh;
-            }
-            // background: yellow;
+            background-color: #B2DFDB;
             .scroll--content{
-                .scroll--text{
-                    // background: blue;
-                    font-weight: $bold;
-                    text-transform: uppercase;
-                    font-size: 100px;
-                    line-height: 6rem;
-                    font-family: $montserrat;
-                    @include __1200__{
-                        font-size: 60px;
-                    }
+                font-family: $montserrat;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                .scroll-text{
+                    font-size: 100x;
+                    font-weight: $semiBold;
                     @include __600__{
-                        font-size: 50px;
-                    }
-                }
-                .text-left{
-                    position: absolute;
-                    top: 30%;
-                    left: 10%;
-                    @include __600__{
-                        left: 6%;
-                        top: 40%;
-                    }
-                }
-                .text-right{
-                    position: absolute;
-                    top: 50%;
-                    left: 40%;
-                    @include __1200__{
-                        left: 35%;
-                    }
-                    @include __990__{
-                        left: 35%;
-                    }
-                    @include __600__{
-                        top: 50%;
-                        left: 20%;
+                        font-size: 12vw;
                     }
                 }
             }
@@ -315,6 +285,7 @@
         section#section--3{
             background: $darkGray;
             padding: 4rem 0;
+            margin-top: 0%;
             overflow-x: hidden ;
             .section--3--content{
                 @include headingTextStyle();

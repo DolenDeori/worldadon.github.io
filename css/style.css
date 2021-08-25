@@ -1176,77 +1176,39 @@ li {
 .main_page_body main .scrolle--text--area {
   margin-top: 5rem;
   height: 100vh;
-  position: relative;
-  border-top: 2px solid #dbdbdb;
+  background-color: #B2DFDB;
 }
 
-@media only screen and (max-width: 600px) {
-  .main_page_body main .scrolle--text--area {
-    height: 50vh;
-  }
-}
-
-.main_page_body main .scrolle--text--area .scroll--content .scroll--text {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 100px;
-  line-height: 6rem;
+.main_page_body main .scrolle--text--area .scroll--content {
   font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
-@media only screen and (max-width: 1200px) {
-  .main_page_body main .scrolle--text--area .scroll--content .scroll--text {
-    font-size: 60px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .main_page_body main .scrolle--text--area .scroll--content .scroll--text {
-    font-size: 50px;
-  }
-}
-
-.main_page_body main .scrolle--text--area .scroll--content .text-left {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-}
-
-@media only screen and (max-width: 600px) {
-  .main_page_body main .scrolle--text--area .scroll--content .text-left {
-    left: 6%;
-    top: 40%;
-  }
-}
-
-.main_page_body main .scrolle--text--area .scroll--content .text-right {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-}
-
-@media only screen and (max-width: 1200px) {
-  .main_page_body main .scrolle--text--area .scroll--content .text-right {
-    left: 35%;
-  }
-}
-
-@media only screen and (max-width: 990px) {
-  .main_page_body main .scrolle--text--area .scroll--content .text-right {
-    left: 35%;
-  }
+.main_page_body main .scrolle--text--area .scroll--content .scroll-text {
+  font-size: 100x;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
-  .main_page_body main .scrolle--text--area .scroll--content .text-right {
-    top: 50%;
-    left: 20%;
+  .main_page_body main .scrolle--text--area .scroll--content .scroll-text {
+    font-size: 12vw;
   }
 }
 
 .main_page_body main section#section--3 {
   background: #242424;
   padding: 4rem 0;
+  margin-top: 0%;
   overflow-x: hidden;
   /* Hide extra text */
   /* Hover Action*/
