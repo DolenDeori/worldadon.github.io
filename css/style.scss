@@ -128,6 +128,7 @@
                 color: $white;
                 font-family: $georama;
                 font-size: 20px;
+                line-height: 2rem;
                 @include __600__{
                     font-size: 17px;
                     text-align: justify;
@@ -185,22 +186,19 @@
             background: fixed no-repeat;
             background-attachment: fixed;
             .section--content--1{
-                // background: yellow;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 flex-wrap: wrap;
                 align-items: center;
                 .content--left-section--1{
-                    // background: yellowgreen;
-                    // margin-left: 5rem;
                     .content--left{
-
                         @include headingTextStyle();
 
                         .homePage--aboutUS{
                             font-family: $spaceGrotesk;
                             font-size: 18px;
+                            line-height: 2rem;
                             @include __600__{
                                 font-size: 17px;
                                 text-align: justify;
@@ -270,7 +268,7 @@
                 justify-content: center;
                 text-align: center;
                 .scroll-text{
-                    font-size: 100x;
+                    font-size: 100px;
                     font-weight: $semiBold;
                     @include __600__{
                         font-size: 12vw;

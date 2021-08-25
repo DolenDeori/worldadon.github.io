@@ -744,6 +744,7 @@ li {
   color: #ffffff;
   font-family: "Georama", sans-serif;
   font-size: 20px;
+  line-height: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -887,6 +888,7 @@ li {
 .main_page_body main section#section--1 .section--content--1 .content--left-section--1 .content--left .homePage--aboutUS {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
+  line-height: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1195,7 +1197,7 @@ li {
 }
 
 .main_page_body main .scrolle--text--area .scroll--content .scroll-text {
-  font-size: 100x;
+  font-size: 100px;
   font-weight: 600;
 }
 
