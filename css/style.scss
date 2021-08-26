@@ -177,6 +177,22 @@
         }
     }
 
+    .whats-app-btn{
+        position: fixed;
+        left: 5%;
+        top: 85%;
+        z-index: 1000;
+        a{
+            background: #25D366;
+            color: $white;
+            font-family: $georama;
+            border-radius:2px ;
+            box-shadow: 1px 3px 20px #35353560;
+            color: $white;
+            border-radius: 100%;
+            font-size: 20px;
+        }
+    }
 
     main{
 

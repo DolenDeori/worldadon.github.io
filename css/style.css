@@ -795,6 +795,25 @@ li {
   }
 }
 
+.main_page_body .whats-app-btn {
+  position: fixed;
+  left: 5%;
+  top: 85%;
+  z-index: 1000;
+}
+
+.main_page_body .whats-app-btn a {
+  background: #25D366;
+  color: #ffffff;
+  font-family: "Georama", sans-serif;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 3px 20px #35353560;
+          box-shadow: 1px 3px 20px #35353560;
+  color: #ffffff;
+  border-radius: 100%;
+  font-size: 20px;
+}
+
 .main_page_body main section#section--1 {
   margin-top: 5rem;
   background: fixed no-repeat;
