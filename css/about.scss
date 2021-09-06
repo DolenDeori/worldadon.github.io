@@ -1,5 +1,52 @@
 @import './global/navigation' , './global/variable' , './global/global' , './global/footer';
 
+
+.section{
+    margin-top:5rem;
+}
+
+@mixin headingTextStyle() {
+    .subtitle{
+        font-family: $montserrat;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        color: $blue;
+        font-weight: $medium;
+        @include __400__{
+            font-size: 14px;
+        }
+        .line{
+            content: '';
+            height: 2px;
+            width: 10rem;
+            background: $blue;
+            margin-left: 1.5rem;
+            @include __400__{
+                width: 5rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+    .section--title{
+        font-size: 100px;
+        font-family: $montserrat;
+        font-weight: $bold;
+        @include __1200__{
+            font-size: 80px;
+        }
+        @include __600__{
+            font-size: 60px;
+        }
+        @include __400__{
+            font-size: 45px;
+        }
+    }
+}
+
+
+
 .main_page_body{
     .header_area{
         background: linear-gradient(#000000a8 , #000000a8), url("../img/Demo_image.jpg");
@@ -73,6 +120,18 @@
                     top: 26px;
                 }
             }
+        }
+    }
+    
+
+    main{
+        .aboutPage--aboutUs{
+            font-family: $spaceGrotesk;
+            font-size: 20px;
+            text-align: justify;
+        }
+        #section--1{
+            @include headingTextStyle();
         }
     }
 }
