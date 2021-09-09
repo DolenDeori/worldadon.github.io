@@ -114,6 +114,41 @@ main{
                 font-family: $georama;
             }
         }
+
+        .other-contact-option{
+            padding-left: 2rem;
+            @include __600__{
+                padding-left: .5rem;
+            }
+            h2{
+                font-family: $montserrat;
+                color: $blue;
+                font-weight: $semiBold;
+            }
+            .contact-options{
+                i{
+                    margin-top: 2rem;
+                    border: 1px dashed $blue;
+                    padding: 1rem;
+                    font-size: 20px;
+                    color: $blue;
+                }
+            }
+            .address{
+                i{
+                    margin-top: 2rem;
+                    border: 1px dashed $blue;
+                    padding: 1rem;
+                    font-size: 20px;
+                    color: $blue;
+                }
+                .p-address{
+                    font-size: 20px;
+                    font-family: $spaceGrotesk;
+                    margin-top: 1rem;
+                }
+            }
+        }
     }
 }
 

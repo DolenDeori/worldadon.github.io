@@ -720,6 +720,44 @@ main #section--1 form button {
   font-family: "Georama", sans-serif;
 }
 
+main #section--1 .other-contact-option {
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  main #section--1 .other-contact-option {
+    padding-left: .5rem;
+  }
+}
+
+main #section--1 .other-contact-option h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #4357D9;
+  font-weight: 600;
+}
+
+main #section--1 .other-contact-option .contact-options i {
+  margin-top: 2rem;
+  border: 1px dashed #4357D9;
+  padding: 1rem;
+  font-size: 20px;
+  color: #4357D9;
+}
+
+main #section--1 .other-contact-option .address i {
+  margin-top: 2rem;
+  border: 1px dashed #4357D9;
+  padding: 1rem;
+  font-size: 20px;
+  color: #4357D9;
+}
+
+main #section--1 .other-contact-option .address .p-address {
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 1rem;
+}
+
 #back2top {
   position: fixed;
   right: 2%;
