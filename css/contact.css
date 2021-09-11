@@ -744,18 +744,11 @@ main #section--1 .other-contact-option .contact-options i {
   color: #4357D9;
 }
 
-main #section--1 .other-contact-option .address i {
-  margin-top: 2rem;
-  border: 1px dashed #4357D9;
-  padding: 1rem;
-  font-size: 20px;
-  color: #4357D9;
-}
-
-main #section--1 .other-contact-option .address .p-address {
-  font-size: 20px;
+main #section--1 .other-contact-option .contact-options span.info-item {
   font-family: "Space Grotesk", sans-serif;
-  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 20px;
+  color: #000000;
 }
 
 #back2top {

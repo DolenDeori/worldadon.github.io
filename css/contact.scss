@@ -133,19 +133,11 @@ main{
                     font-size: 20px;
                     color: $blue;
                 }
-            }
-            .address{
-                i{
-                    margin-top: 2rem;
-                    border: 1px dashed $blue;
-                    padding: 1rem;
-                    font-size: 20px;
-                    color: $blue;
-                }
-                .p-address{
-                    font-size: 20px;
+                span.info-item{
                     font-family: $spaceGrotesk;
-                    margin-top: 1rem;
+                    margin-left: 1rem;
+                    font-size: 20px;
+                    color: $black;
                 }
             }
         }
