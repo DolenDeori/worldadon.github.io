@@ -701,17 +701,17 @@ li {
   margin-top: 5rem;
 }
 
-.main_page_body .header_area {
+.header_area {
   background: -webkit-gradient(linear, left top, left bottom, from(#000000a8), to(#000000a8)), url("../img/Demo_image.jpg");
   background: linear-gradient(#000000a8, #000000a8), url("../img/Demo_image.jpg");
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.main_page_body .header_area .header-content {
+.header_area .header-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -719,7 +719,7 @@ li {
           transform: translate(-50%, -50%);
 }
 
-.main_page_body .header_area .header-content h1.companyName {
+.header_area .header-content h1.companyName {
   color: #ffffff;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
@@ -727,12 +727,12 @@ li {
 }
 
 @media only screen and (max-width: 400px) {
-  .main_page_body .header_area .header-content h1.companyName {
+  .header_area .header-content h1.companyName {
     font-size: 50px;
   }
 }
 
-.main_page_body .header_area .header-content p.below-text {
+.header_area .header-content p.below-text {
   color: #ffffff;
   font-family: "Georama", sans-serif;
   font-size: 20px;
@@ -740,13 +740,13 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
-  .main_page_body .header_area .header-content p.below-text {
+  .header_area .header-content p.below-text {
     font-size: 17px;
     text-align: justify;
   }
 }
 
-.main_page_body .header_area .container .mouse {
+.header_area .container .mouse {
   cursor: pointer;
   position: absolute;
   bottom: 5%;
@@ -757,7 +757,7 @@ li {
   border-radius: 60px;
 }
 
-.main_page_body .header_area .container .mouse::before {
+.header_area .container .mouse::before {
   content: '';
   width: 6px;
   height: 6px;
@@ -940,10 +940,6 @@ li {
 
 .main_page_body main #section--2 .card-area .card .card-text {
   font-family: "Space Grotesk", sans-serif;
-}
-
-footer {
-  margin: 0%;
 }
 
 #back2top {

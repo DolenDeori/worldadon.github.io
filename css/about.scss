@@ -5,125 +5,9 @@
     margin-top:5rem;
 }
 
-@mixin headingTextStyle() {
-    .subtitle{
-        font-family: $montserrat;
-        display: flex;
-        font-size: 20px;
-        align-items: center;
-        color: $blue;
-        font-weight: $medium;
-        @include __400__{
-            font-size: 14px;
-        }
-        .line{
-            content: '';
-            height: 2px;
-            width: 10rem;
-            background: $blue;
-            margin-left: 1.5rem;
-            @include __400__{
-                width: 5rem;
-                margin-left: 1rem;
-            }
-        }
-    }
-
-    .section--title{
-        font-size: 100px;
-        font-family: $montserrat;
-        font-weight: $bold;
-        @include __1200__{
-            font-size: 80px;
-        }
-        @include __600__{
-            font-size: 60px;
-        }
-        @include __400__{
-            font-size: 45px;
-        }
-    }
-}
-
-
+@include headerStylingSecondary(70vh);
 
 .main_page_body{
-    .header_area{
-        background: linear-gradient(#000000a8 , #000000a8), url("../img/Demo_image.jpg");
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-    
-        .header-content{
-             position: absolute;
-             top: 50%;
-             left: 50%;
-             transform: translate(-50% , -50%);
-            h1.companyName{
-                color: $white;
-                font-family: $spaceGrotesk;
-                font-weight: $bold;
-                font-size: 90px;
-                @include __400__{
-                    font-size: 50px;
-                }
-            }
-            p.below-text{
-                color: $white;
-                font-family: $georama;
-                font-size: 20px;
-                line-height: 2rem;
-                @include __600__{
-                    font-size: 17px;
-                    text-align: justify;
-                }
-            }
-        }
-        .container {
-            .mouse {
-                cursor: pointer;
-                position: absolute;
-                bottom: 5%;
-                left: 50%;
-                width: 25px;
-                height: 40px;
-                border: 2px solid rgb(255, 255, 255);
-                border-radius: 60px;
-                &::before {
-                    content: '';
-                    width: 6px;
-                    height: 6px;
-                    position: absolute;
-                    top: 10px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    background-color: rgb(255, 255, 255);
-                    border-radius: 50%;
-                    opacity: 1;
-                    animation: wheel 2s infinite;
-                    -webkit-animation: wheel 2s infinite;
-                }
-            }
-            
-            @keyframes wheel {
-                to {
-                    opacity: 0;
-                    top: 26px;
-                }
-            }
-            
-            @-webkit-keyframes wheel {
-                to {
-                    opacity: 0;
-                    top: 26px;
-                }
-            }
-        }
-    }
-    
-
     main{
         .aboutPage--aboutUs{
             font-family: $spaceGrotesk;
@@ -161,10 +45,6 @@
             }
         }
     }
-}
-
-footer{
-    margin: 0%;
 }
 
 #back2top{

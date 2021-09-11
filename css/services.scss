@@ -1,0 +1,22 @@
+@import './global/variable' ,'./global/global', './global/responsive' , './global/footer' , './global/navigation';
+
+
+@include headerStyling(70vh);
+
+
+#back2top{
+    position: fixed;
+    right: 2%;
+    top: 85%;
+    background: $blue;
+    color: $white;
+    font-family: $georama;
+    border-radius:2px ;
+    box-shadow: 1px 3px 20px #35353560;
+    z-index: 1000;
+    &:focus,
+    &:active{
+        box-shadow: none;
+        outline: none;
+    }
+}
