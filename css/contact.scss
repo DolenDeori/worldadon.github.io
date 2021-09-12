@@ -117,9 +117,11 @@ main{
 
         .other-contact-option{
             padding-left: 2rem;
-            @include __600__{
+            @include __770__{
                 padding-left: .5rem;
+                margin-top: 3rem;
             }
+
             h2{
                 font-family: $montserrat;
                 color: $blue;
@@ -138,6 +140,10 @@ main{
                     margin-left: 1rem;
                     font-size: 20px;
                     color: $black;
+                    line-height: 2rem;
+                    @include __400__{
+                        font-size: 15px;
+                    }
                 }
             }
         }
