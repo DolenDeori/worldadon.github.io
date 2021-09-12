@@ -724,9 +724,10 @@ main #section--1 .other-contact-option {
   padding-left: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   main #section--1 .other-contact-option {
     padding-left: .5rem;
+    margin-top: 3rem;
   }
 }
 
@@ -749,6 +750,13 @@ main #section--1 .other-contact-option .contact-options span.info-item {
   margin-left: 1rem;
   font-size: 20px;
   color: #000000;
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 400px) {
+  main #section--1 .other-contact-option .contact-options span.info-item {
+    font-size: 15px;
+  }
 }
 
 #back2top {
