@@ -1,8 +1,52 @@
 @import './global/variable' ,'./global/global', './global/responsive' , './global/footer' , './global/navigation';
 
 
-@include headerStyling(70vh);
+@include headerStylingSecondary(70vh);
 
+@mixin serviceTitle {
+    h1.service-title{
+        font-family: $georama;
+        font-size: 50px;
+        font-weight: $bold;
+        color: $blue;
+    }
+}
+main{
+    section#section--1{
+        margin-top: 3rem;
+        .section-heading{
+            @include serviceTitle();
+        }
+
+        .card{
+            margin-top: 2rem;
+            border: none;
+            .card-title{
+                font-family: $montserrat;
+                font-weight: $semiBold;
+            }
+            .card-subtitle{
+                margin-top: .5rem;
+                span{
+                    color: $white;
+                    font-family: $spaceGrotesk;
+                    background: $green;
+                    border-radius: 10rem;
+                    margin: 0rem .2rem;
+                    padding: 0rem .4rem;
+                    font-size: 15px;
+                }
+                i{
+                    color: $green;
+                }
+                ul.card-text{
+                    font-family: $montserrat;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}
 
 #back2top{
     position: fixed;

@@ -783,6 +783,50 @@ li {
   }
 }
 
+main section#section--1 {
+  margin-top: 3rem;
+}
+
+main section#section--1 .section-heading h1.service-title {
+  font-family: "Georama", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #4357D9;
+}
+
+main section#section--1 .card {
+  margin-top: 2rem;
+  border: none;
+}
+
+main section#section--1 .card .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+main section#section--1 .card .card-subtitle {
+  margin-top: .5rem;
+}
+
+main section#section--1 .card .card-subtitle span {
+  color: #ffffff;
+  font-family: "Space Grotesk", sans-serif;
+  background: #0fc51e;
+  border-radius: 10rem;
+  margin: 0rem .2rem;
+  padding: 0rem .4rem;
+  font-size: 15px;
+}
+
+main section#section--1 .card .card-subtitle i {
+  color: #0fc51e;
+}
+
+main section#section--1 .card .card-subtitle ul.card-text {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
 #back2top {
   position: fixed;
   right: 2%;
