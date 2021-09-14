@@ -145,6 +145,11 @@
                 height: 40px;
                 border: 2px solid rgb(255, 255, 255);
                 border-radius: 60px;
+
+                @include __600__{
+                    display: none;
+                    pointer-events: none;
+                }
                 &::before {
                     content: '';
                     width: 6px;
