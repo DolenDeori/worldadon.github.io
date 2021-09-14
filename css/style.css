@@ -765,6 +765,13 @@ li {
   border-radius: 60px;
 }
 
+@media only screen and (max-width: 600px) {
+  .main_page_body .header_area .container .mouse {
+    display: none;
+    pointer-events: none;
+  }
+}
+
 .main_page_body .header_area .container .mouse::before {
   content: '';
   width: 6px;
